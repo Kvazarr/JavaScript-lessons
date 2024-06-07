@@ -1,0 +1,11 @@
+.signInForm{
+    width: 40%;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.formRow{
+    margin: 10px;
+    display: grid;
+}

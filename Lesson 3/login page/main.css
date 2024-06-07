@@ -1,0 +1,17 @@
+.form-signup {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.form-row {
+    margin-top: 10px;
+}
+
+.mainDiv{
+    background-color:bisque ;
+    width: 20%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
