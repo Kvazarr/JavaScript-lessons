@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="firstForm">
+        <h1 style="text-align: center; font-size:larger;">Search:</h1>
+        <div class="secondForm">
+            <div style="padding: 10px;">
+                <div style="display: grid; grid-template-columns: 1fr 2fr;">
+                    <label style="grid-column: 1;" for="title">Title:</label>
+                    <input style="grid-column: 2;" type="text">
+                </div>
+            </div>
+            <div style="padding: 10px;">
+                <div style="display: grid; grid-template-columns: 1fr 2fr;">
+                    <label style="grid-column: 1;" for="type">Type:</label>
+                    <select style="grid-column: 2;" name="genre" id="genre">
+                        <option value="movie">movie</option>
+                        <option value="series">series</option>
+                        <option value="episode">episode</option>
+                    </select>
+                </div>
+            </div>
+            <div style="text-align: center; margin:5px">
+                <button style="width: 95%;">Search</button>
+            </div>
+            
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

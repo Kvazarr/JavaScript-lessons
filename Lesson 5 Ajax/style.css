@@ -1,0 +1,12 @@
+.firstForm{
+    width: 30%;
+    background-color: bisque;
+    margin: auto;
+    padding: 10px;
+}
+.secondForm{
+    border: 1px solid black;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 10px;
+}
