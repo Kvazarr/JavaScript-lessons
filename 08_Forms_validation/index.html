@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form validation</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Реєстрація</h1>
+
+    <form name="formSignup" class="form-signup" onsubmit="formSubmitHandler(event)">
+        <div class="form-row">
+            <input placeholder="Ім'я" id="firstName" name="lastName" type="text">
+        </div>
+        <div class="form-row">
+            <input placeholder="Прізвище" id="lastName" name="lastName" type="text">
+        </div>
+        <div class="form-row">
+            <input placeholder="Пошта" id="email" name="email" type="text">
+        </div>
+        <div class="form-row">
+            <input placeholder="Пароль" id="password" name="password" type="password">
+        </div>
+        <div class="form-row">
+            <input placeholder="Підтвердження паролю" id="confirmPassword" name="confirmPassword" type="password">
+        </div>
+        <div style="min-height: 15px;">
+            <label id="labelError" hidden style="color: red; font-size: 0.8em;">Error</label>
+        </div>
+        <div class="form-row">
+            <input type="submit" value="Зареєструватися">
+            <input type="reset" value="Очистити">
+        </div>
+    </form>
+
+    <form name="searchForm" style="text-align: center; margin-top: 50px;" onsubmit="return testForm(event)">
+        <input name="search" placeholder="Пошук" type="search">
+        <input type="submit" value="Знайти">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
